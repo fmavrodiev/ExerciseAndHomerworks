@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "Greeting\Greeting.csproj", "{88084370-BC00-4B2B-AF7B-BCBBB66DAD98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sumator", "Sumator\Sumator.csproj", "{5466F3AA-EFB3-447C-9B65-E7804E0C9A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeData", "EmployeeData\EmployeeData.csproj", "{5A859E6B-F9D1-4AAC-9838-1D834D728ACE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88084370-BC00-4B2B-AF7B-BCBBB66DAD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88084370-BC00-4B2B-AF7B-BCBBB66DAD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88084370-BC00-4B2B-AF7B-BCBBB66DAD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88084370-BC00-4B2B-AF7B-BCBBB66DAD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5466F3AA-EFB3-447C-9B65-E7804E0C9A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5466F3AA-EFB3-447C-9B65-E7804E0C9A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5466F3AA-EFB3-447C-9B65-E7804E0C9A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5466F3AA-EFB3-447C-9B65-E7804E0C9A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A859E6B-F9D1-4AAC-9838-1D834D728ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A859E6B-F9D1-4AAC-9838-1D834D728ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A859E6B-F9D1-4AAC-9838-1D834D728ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A859E6B-F9D1-4AAC-9838-1D834D728ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51B25AB3-916D-43E8-9786-31166F898AA5}
+	EndGlobalSection
+EndGlobal
