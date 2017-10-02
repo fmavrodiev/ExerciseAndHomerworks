@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionOne", "SolutionOne\SolutionOne.csproj", "{E61F2CF4-0364-4137-8BAC-9612F5839FFD}"
 EndProject
@@ -18,8 +18,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionSix", "SolutionSix\SolutionSix.csproj", "{58DCB1FC-021C-42E4-89D9-F1D341A24F06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionSeven", "SolutionSeven\SolutionSeven.csproj", "{6D8D2ED2-3F88-457A-8C53-1940A38581C8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyPress", "KeyPress\KeyPress.csproj", "{3953D6CE-C398-4AF9-89C0-0E0B4D0D66EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +57,6 @@ Global
 		{6D8D2ED2-3F88-457A-8C53-1940A38581C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D8D2ED2-3F88-457A-8C53-1940A38581C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D8D2ED2-3F88-457A-8C53-1940A38581C8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3953D6CE-C398-4AF9-89C0-0E0B4D0D66EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3953D6CE-C398-4AF9-89C0-0E0B4D0D66EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3953D6CE-C398-4AF9-89C0-0E0B4D0D66EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3953D6CE-C398-4AF9-89C0-0E0B4D0D66EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
