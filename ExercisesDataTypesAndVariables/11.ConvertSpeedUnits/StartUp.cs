@@ -6,15 +6,15 @@
     {
         public static void Main()
         {
-            int distanceInMeters = int.Parse(Console.ReadLine());
-            int timeInhours = int.Parse(Console.ReadLine());
-            int timeInMinutes = int.Parse(Console.ReadLine());
-            int timeInSeconds = int.Parse(Console.ReadLine());
+            float distanceInMeters = float.Parse(Console.ReadLine());
+            float timeInhours = float.Parse(Console.ReadLine());
+            float timeInMinutes = float.Parse(Console.ReadLine());
+            float timeInSeconds = float.Parse(Console.ReadLine());
 
-            int totalTime = 0;
-            int meterPerSecond = 0;
-            int kilometerPerHour = 0;
-            int milesPerHour = 0;
+            float totalTime = 0;
+            float meterPerSecond = 0;
+            float kilometerPerHour = 0;
+            float milesPerHour = 0;
 
             totalTime = timeInhours + timeInMinutes / 60 + timeInSeconds / 3600;
 
