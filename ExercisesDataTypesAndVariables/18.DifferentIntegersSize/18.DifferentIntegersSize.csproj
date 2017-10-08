@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22760B39-159E-4AEB-BB4B-B065C1B982D6}</ProjectGuid>
+    <ProjectGuid>{81F8E900-C098-40D2-A2C5-D0B14464CF96}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_10.CenturiesToNanoseconds</RootNamespace>
-    <AssemblyName>10.CenturiesToNanoseconds</AssemblyName>
+    <RootNamespace>_18.DifferentIntegersSize</RootNamespace>
+    <AssemblyName>18.DifferentIntegersSize</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

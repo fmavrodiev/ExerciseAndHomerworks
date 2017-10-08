@@ -8,9 +8,7 @@
         {
             string something = Console.ReadLine().ToLower();
 
-            int digit;
-
-            bool isDigit = int.TryParse(something, out digit);
+            bool isDigit = int.TryParse(something, out int digit);
 
             if (isDigit)
             {

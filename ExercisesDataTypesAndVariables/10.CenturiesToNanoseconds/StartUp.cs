@@ -1,6 +1,7 @@
 ﻿namespace _10.CenturiesToNanoseconds
 {
     using System;
+    using System.Numerics;
 
     public class StartUp
     {
@@ -8,23 +9,14 @@
         {
             byte centurie = byte.Parse(Console.ReadLine());
 
-            int years = 0;
-            int days = 0;
-            int hours = 0;
-            int minutes = 0;
-            ulong seconds = 0;
-            ulong milliseconds = 0;
-            ulong microseconds = 0;
-            ulong nanoseconds = 0;
-            
-            years = centurie * 100;
-            days = (int)(years * 365.2422);
-            hours = days * 24;
-            minutes = hours * 60;
-            seconds = (ulong)minutes * 60;
-            milliseconds = seconds * 1000;
-            microseconds = milliseconds * 1000;
-            nanoseconds = microseconds * 1000;
+            short years = (short)(centurie * 100);
+            int days = (int)(years * 365.2422);
+            int hours = days * 24;
+            long minutes = hours * 60;
+            long seconds = minutes * 60;
+            long milliseconds = seconds * 1000;
+            BigInteger microseconds = milliseconds * 1000;
+            BigInteger nanoseconds = microseconds * 1000;
 
             Console.WriteLine($"{centurie} centuries = {years} " +
                 $"years = {days} days = {hours} hours = {minutes} minutes = {seconds} seconds = " +
